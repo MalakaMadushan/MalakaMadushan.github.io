@@ -287,6 +287,35 @@
 		})
 	};
 
+	// $('#btnmessege').click(function() {
+	// 	$.ajax({
+	// 		type: "POST",
+	// 		url: "https://mandrillapp.com/api/1.0/messages/send.json",
+	// 		data: {
+	// 		  "key": "uSABA_xX9HPrJJo54XgrWg",
+	// 		  "message": {
+	// 			"from_email": "ruwansanjeewa20@gmail.com",
+	// 			"to": [
+	// 				{
+	// 				  "email": "malakamadushan123@gmail.com",
+	// 				  "name": "malaka",
+	// 				  "type": "to"
+	// 				},
+					
+	// 			  ],
+	// 			"autotext": "true",
+	// 			"subject": "",
+	// 			"html": ""
+	// 		  }
+	// 		}
+	// 	   }).done(function(response) {
+	// 		 console.log(response); // if you're into that sorta thing
+	// 	   });
+	//   });
+
+
+
+
 	// Document on load.
 	$(function(){
 		fullHeight();
