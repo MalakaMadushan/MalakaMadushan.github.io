@@ -87,6 +87,8 @@ figure {
   @media screen and (max-width: 768px) {
     #colorlib-aside {
       width: 300px;
+      position: fixed;
+     overflow-y: scroll;
       -moz-transform: translateX(-300px);
       -webkit-transform: translateX(-300px);
       -ms-transform: translateX(-300px);
@@ -196,7 +198,9 @@ figure {
     @media screen and (max-width: 768px) {
       #colorlib-aside .colorlib-footer {
         position: relative;
-        bottom: 0; } }
+        bottom: 0;
+      /* height: 100%;  */
+    } }
     #colorlib-aside .colorlib-footer span {
       display: block; }
     #colorlib-aside .colorlib-footer ul {
@@ -249,7 +253,8 @@ figure {
     margin-bottom: 0; }
     #colorlib-hero .flexslider .slides {
       position: relative;
-      overflow: visible; }
+      overflow: visible; 
+    }
       #colorlib-hero .flexslider .slides li {
         background-repeat: no-repeat;
         background-size: cover;
@@ -270,7 +275,7 @@ figure {
         display: block;
         margin-bottom: 10px; }
         #colorlib-hero .flexslider .flex-control-nav li a {
-          background: rgba(0, 0, 0, 0.5);
+          background: white;
           -webkit-box-shadow: none;
           box-shadow: none;
           width: 12px;
@@ -357,11 +362,13 @@ body.offcanvas {
     -o-transform: translateX(0);
     transform: translateX(0);
     width: 300px;
+    height: 100%;
     background: #f2f3f7;
     z-index: 999;
     position: fixed; }
   body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     top: 0;
+    bottom: 0;
     -moz-transform: translateX(300px);
     -webkit-transform: translateX(300px);
     -ms-transform: translateX(300px);

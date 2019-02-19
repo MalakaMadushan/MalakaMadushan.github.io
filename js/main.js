@@ -126,7 +126,7 @@
 	    	if ( $('body').hasClass('offcanvas') ) {
 
     			$('body').removeClass('offcanvas');
-    			$('.js-colorlib-nav-toggle').removeClass('active');
+    			// $('.js-colorlib-nav-toggle').removeClass('active');
 			
 	    	}
 	    	
